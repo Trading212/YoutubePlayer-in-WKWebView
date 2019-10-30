@@ -734,6 +734,6 @@ typedef NS_ENUM(NSInteger, WKYTPlayerError) {
 /**
  * Creates the web view.
  */
-- (WKWebView *)createNewWebView;
+- (nonnull WKWebView *)createNewWebView;
 
 @end
